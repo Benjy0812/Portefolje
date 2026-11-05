@@ -1,26 +1,26 @@
-import { defineConfig } from "cspell";
+import { defineConfig } from 'cspell'
 
 export default defineConfig({
-  version: "0.2",
+  version: '0.2',
   dictionaryDefinitions: [
     {
-      name: "nb-no",
-      path: "./dictionaries/nb_NO.txt",
+      name: 'nb-no',
+      path: './dictionaries/nb_NO.txt',
       addWords: true,
     },
     {
-      name: "custom-project-words",
-      path: "./dictionaries/custom.txt",
+      name: 'custom-project-words',
+      path: './dictionaries/custom.txt',
       addWords: true,
     },
   ],
-  dictionaries: ["nb-no", "custom-project-words"],
+  dictionaries: ['nb-no', 'custom-project-words'],
   ignorePaths: [
-    "node_modules",
-    "dist",
-    "dictionaries/**",
-    "AGENTS.md",
-    "cspell.config.js",
-    "bun.lock",
+    'node_modules',
+    'dist',
+    'dictionaries/**',
+    'AGENTS.md',
+    'cspell.config.js',
+    'bun.lock',
   ],
-});
+})
