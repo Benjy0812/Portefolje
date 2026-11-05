@@ -1,16 +1,21 @@
 @import 'tailwindcss';
 
 @theme {
-  --color-navbar-bg: #138001;
-  --color-navbar-text: #eeff00;
   --color-navbar-h1: #00eeff;
+  --color-navbar-text: #eeff00;
+  --color-navbar-bg: #138001;
 
   --color-info-h1: #cc0100;
   --color-info-bg: #ffa601;
-  --color-info-card-bg: #4b40ff;
   --color-info-card-text: #ffffff;
+  --color-info-card-bg: #4b40ff;
 
+  --color-om-meg-h: #ff0000ff;
   --color-om-meg-bg: #00fff2ff;
-  --color-om-meg-h2: #ff0000ff;
   --color-om-meg-card-bg: #fffb00ff;
+
+  --color-ferdigheter-bg: #ff00aeff;
+  --color-ferdigheter-h2: #1400c4ff;
+  --color-ferdigheter-card-bg: #2f00bcff;
+  --color-ferdigheter-card-text: #00e5ffff;
 }

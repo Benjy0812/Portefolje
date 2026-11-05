@@ -1,14 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="nb">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofølje</title>
+    <title>Portefølje</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav
-      class="bg-navbar-bg text flex flex-row items-center justify-between px-8 py-4 font-bold"
+      class="bg-navbar-bg flex flex-row items-center justify-between px-8 py-4 font-bold"
     >
       <a href="#hero" class="text-navbar-h1">
         <h1 class="text-navbar-h1 text-[24px]">Portefølje</h1>
@@ -22,7 +22,7 @@
       </div>
     </nav>
 
-    <div class="bg-info-bg gap-80 pb-40 pl-25">
+    <div class="bg-info-bg pb-40 pl-25">
       <h2
         id="hero"
         class="text-info-h1 mr-10 mb-10 pt-10 text-[32px] font-bold"
@@ -40,7 +40,7 @@
           brukt av faktiske folk i verden.
         </p>
         <div
-          class="bg-info-card-bg text-info-card-text mr-25 shrink-0 p-2.5 text-2xl text-[32px] font-bold"
+          class="bg-info-card-bg text-info-card-text mr-25 shrink-0 p-2.5 text-[32px] font-bold"
         >
           <div class="flex flex-row">
             <h3 class="max-w-50">Benjamin Hansen Robertsen</h3>
@@ -55,12 +55,13 @@
       </div>
     </div>
 
-    <div class="bg-om-meg-bg">
-      <div class="text-om-meg-h2 text-[32px] font-bold">
-        <h2 id="om-meg">Om meg</h2>
-        <p>Hvem er jeg</p>
-      </div>
-      <div class="flex flex-row gap-50 *:rounded-lg *:border *:border-black">
+    <div
+      class="bg-om-meg-bg [&_:is(h2,h3)]:text-om-meg-h p-32 [&_:is(h2,h3)]:font-bold"
+    >
+      <h2 id="pb-32" class="pb-32 text-3xl">Om meg</h2>
+      <div
+        class="*:bg-om-meg-card-bg grid grid-cols-2 gap-85 *:rounded-lg *:border *:border-black *:p-4 *:pb-40 [&_:is(h2,h3)]:text-xl [&_p]:pt-2"
+      >
         <div>
           <h3>Hvem jeg er</h3>
           <p>
@@ -80,36 +81,53 @@
       </div>
     </div>
 
-    <h2>Ferdigheter</h2>
+    <div class="bg-ferdigheter-bg p-32">
+      <h2 class="text-ferdigheter-h2 text-3xl font-bold pb-32">Ferdigheter</h2>
+      <div
+        class="[&_h3]:text-ferdigheter-card-text *:bg-ferdigheter-card-bg grid grid-cols-3 gap-60 *:rounded-lg *:border [&_h3]:text-3xl [&_h3]:font-bold"
+      >
+        <div class="p-2.5">
+          <h3 class="pb-2.5">Teknologi</h3>
+          <div
+            class="*:bg-ferdigheter-bg *:text-ferdigheter-h2 flex flex-wrap gap-2.5 *:h-fit *:w-fit *:rounded-sm *:border *:border-black *:p-0.5 *:font-bold"
+          >
+            <p>HTML og CSS</p>
+            <p>JavaScript</p>
+            <p>Rust</p>
+            <p>Python</p>
+            <p>C++</p>
+            <p>Java</p>
+          </div>
+        </div>
+        <div class="p-2.5">
+          <h3 class="pb-2.5">Arbeidsmåte</h3>
 
-    <div>
-      <h3>Teknologi</h3>
-      <p>HTML og CSS</p>
-      <p>JavaScript</p>
-      <p>Rust</p>
-      <p>Python</p>
-      <p>C++</p>
-      <p>Java</p>
-    </div>
-
-    <div>
-      <h3>Arbeidsmåte</h3>
-      <p>
-        Trives med problemløsing, God til å spørre når jeg står fast,
-        Strukturert og nøyaktig, Tar ansvar for oppgavene mine, Lærevillig
-      </p>
-    </div>
-
-    <div>
-      <h3>Verktøy jeg bruker</h3>
-      <p>JetBrains IDEs</p>
-      <p>Git</p>
-      <p>MacOS</p>
-      <p>Windows</p>
-      <p>Linux</p>
-      <p>VScode</p>
-      <p>Zed</p>
-      <p>GitHub</p>
+          <ul
+            class="*:bg-ferdigheter-bg *:text-ferdigheter-h2 marker:text-ferdigheter-bg list-disc space-y-2 pl-4 *:w-fit *:rounded-sm *:border *:border-black *:p-0.5 *:font-bold"
+          >
+            <li><p>Trives med problemløsing</p></li>
+            <li><p>God til å spørre når jeg står fast</p></li>
+            <li><p>Strukturert og nøyaktig</p></li>
+            <li><p>Tar ansvar for oppgavene mine</p></li>
+            <li><p>Lærevillig</p></li>
+          </ul>
+        </div>
+        <div class="p-2.5">
+          <h3 class="pb-2.5">Verktøy jeg bruker</h3>
+          <div
+            class="*:bg-ferdigheter-bg *:text-ferdigheter-h2 flex flex-wrap gap-2.5 *:h-fit *:w-fit *:rounded-sm *:border *:border-black *:p-0.5 *:font-bold"
+          >
+            <p>JetBrains IDEs</p>
+            <p>Git</p>
+            <p>MacOS</p>
+            <p>Windows</p>
+            <p>Linux</p>
+            <p>VScode</p>
+            <p>Zed</p>
+            <p>GitHub</p>
+          </div>
+        </div>
+      </div>
     </div>
 
     <h2>Mine Prosjekter</h2>
@@ -132,7 +150,7 @@
 
     <div>
       <h3>Web Tasky</h3>
-      <p>Laget med: HTML, CSS og javaScript</p>
+      <p>Laget med: HTML, CSS og JavaScript</p>
     </div>
 
     <div>
@@ -148,21 +166,21 @@
     <h3>Kontakt meg</h3>
     <form action="">
       <div>
-        <label>Navn</label>
-        <input type="text" name="name" required />
+        <label for="name">Navn</label>
+        <input type="text" id="name" name="name" required />
       </div>
 
       <div>
-        <label>E-mail</label>
-        <label>
-          <input type="text" name="=email" required />
-        </label>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" required />
       </div>
 
       <div>
-        <label>Notater</label>
-        <input type="text" name="notes" />
+        <label for="notes">Notater</label>
+        <input type="text" id="notes" name="notes" />
       </div>
+
+      <button type="submit">Send</button>
     </form>
 
     <footer>
