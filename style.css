@@ -19,8 +19,14 @@
   --color-ferdigheter-card-bg: #2f00bcff;
   --color-ferdigheter-card-text: #00e5ffff;
 
-  --color-prosjekter-bg: #11ff00FF;
-  --color-prosjekter-h2: #c800ffFF;
-  --color-prosjekter-card-bg: #f70004FF;
-  --color-prosjekter-card-text: #0800a3FF;
+  --color-prosjekter-bg: #11ff00ff;
+  --color-prosjekter-h2: #c800ffff;
+  --color-prosjekter-card-bg: #f70004ff;
+  --color-prosjekter-card-text: #0800a3ff;
+
+  --color-kontakt-bg: #ff7300ff;
+  --color-kontakt-h3: #000dffff;
+  --color-kontakt-label-text: #910074ff;
+  --color-kontakt-send-text: #ff58d8ff;
+  --color-kontakt-form-bg: #4b4b4bff;
 }

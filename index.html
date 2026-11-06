@@ -131,54 +131,77 @@
     </div>
 
     <div class="bg-prosjekter-bg p-32 [&_:is(h2,h3)]:font-black">
-      <h2 class="text-prosjekter-h2 text-3xl pb-32">Mine Prosjekter</h2>
-        <div class="grid grid-cols-3 gap-48 *:border [&_h3]:underline *:rounded-lg [&_p]:font-bold *:bg-prosjekter-card-bg *:text-prosjekter-card-text *:p-2.5 *:pb-52">
-          <div>
-            <h3><a href="https://github.com/Benjy0812/Nordisk-Vaer">Nordisk-Vær</a></h3>
-            <p>Laget med: HTML, CSS og JavaScript</p>
-          </div>
-          <div>
-            <h3><a href="https://github.com/Benjy0812/vectory-cpp">To-Do List</a></h3>
-            <p>Laget med: C++</p>
-          </div>
-          <div>
-            <h3><a href="https://github.com/Benjy0812/WebCalculator">Web Calculator</a></h3>
-            <p>Laget med: HTML, CSS og JavaScript</p>
-          </div>
-          <div>
-            <h3><a href="https://github.com/Benjy0812/WebTasky">Web Tasky</a></h3>
-            <p>Laget med: HTML, CSS og JavaScript</p>
-          </div>
-          <div>
-            <h3><a href="https://github.com/Benjy0812/RustCalculator">Rust Calculator</a></h3>
-            <p>Laget med: Rust</p>
-          </div>
-          <div>
-            <h3><a href="https://github.com/Benjy0812/Rustget">Rust Get</a></h3>
-            <p>Laget med: Rust</p>
-          </div>
+      <h2 id="prosjekter" class="text-prosjekter-h2 pb-32 text-3xl">
+        Mine Prosjekter
+      </h2>
+      <div
+        class="*:bg-prosjekter-card-bg *:text-prosjekter-card-text grid grid-cols-3 gap-48 *:rounded-lg *:border *:p-2.5 *:pb-52 [&_h3]:underline [&_p]:font-bold"
+      >
+        <div>
+          <h3>
+            <a href="https://github.com/Benjy0812/Nordisk-Vaer">Nordisk-Vær</a>
+          </h3>
+          <p>Laget med: HTML, CSS og JavaScript</p>
         </div>
+        <div>
+          <h3>
+            <a href="https://github.com/Benjy0812/vectory-cpp">To-Do List</a>
+          </h3>
+          <p>Laget med: C++</p>
+        </div>
+        <div>
+          <h3>
+            <a href="https://github.com/Benjy0812/WebCalculator"
+              >Web Calculator</a
+            >
+          </h3>
+          <p>Laget med: HTML, CSS og JavaScript</p>
+        </div>
+        <div>
+          <h3><a href="https://github.com/Benjy0812/WebTasky">Web Tasky</a></h3>
+          <p>Laget med: HTML, CSS og JavaScript</p>
+        </div>
+        <div>
+          <h3>
+            <a href="https://github.com/Benjy0812/RustCalculator"
+              >Rust Calculator</a
+            >
+          </h3>
+          <p>Laget med: Rust</p>
+        </div>
+        <div>
+          <h3><a href="https://github.com/Benjy0812/Rustget">Rust Get</a></h3>
+          <p>Laget med: Rust</p>
+        </div>
+      </div>
     </div>
 
-    <h3>Kontakt meg</h3>
-    <form action="">
-      <div>
-        <label for="name">Navn</label>
-        <input type="text" id="name" name="name" required />
-      </div>
-
-      <div>
-        <label for="email">E-mail</label>
-        <input type="email" id="email" name="email" required />
-      </div>
-
-      <div>
-        <label for="notes">Notater</label>
-        <input type="text" id="notes" name="notes" />
-      </div>
-
-      <button type="submit">Send</button>
-    </form>
+    <div class="bg-kontakt-bg p-32">
+      <h3 id="kontakt" class="text-kontakt-h3 font-bold">Kontakt meg</h3>
+      <form
+        class="[&_label]:text-kontakt-label-text [&_input]:bg-kontakt-form-bg [&_input]:text-kontakt-send-text mx-auto flex max-w-3xs flex-col *:flex *:flex-col *:gap-2.5 *:text-2xl *:font-bold [&_input]:rounded-lg [&_input]:p-0.5 [&_label]:pt-1"
+        action=""
+      >
+        <div>
+          <label for="name">Navn</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="notes">Notater</label>
+          <input type="text" id="notes" name="notes" />
+        </div>
+        <button
+          class="text-kontakt-send-text bg-kontakt-form-bg mt-5 rounded-lg p-2.5 hover:cursor-pointer"
+          type="submit"
+        >
+          Send
+        </button>
+      </form>
+    </div>
 
     <footer>
       <p>&copy; Portefølje nettside</p>
