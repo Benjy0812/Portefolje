@@ -3,9 +3,9 @@
 @theme {
   --color-navbar-h1: #00eeff;
   --color-navbar-text: #eeff00;
-  --color-navbar-bg: #138001;
+  --color-navbar-bg: #106c01;
 
-  --color-info-h1: #cc0100;
+  --color-info-h1: #c20100;
   --color-info-bg: #ffa601;
   --color-info-card-text: #ffffff;
   --color-info-card-bg: #4b40ff;
@@ -15,17 +15,17 @@
   --color-om-meg-card-bg: #fffb00ff;
 
   --color-ferdigheter-bg: #ff00aeff;
-  --color-ferdigheter-h2: #1400c4ff;
+  --color-ferdigheter-h2: #0c0074ff;
   --color-ferdigheter-card-bg: #2f00bcff;
   --color-ferdigheter-card-text: #00e5ffff;
 
   --color-prosjekter-bg: #11ff00ff;
   --color-prosjekter-h2: #c800ffff;
   --color-prosjekter-card-bg: #f70004ff;
-  --color-prosjekter-card-text: #0800a3ff;
+  --color-prosjekter-card-text: #03003eff;
 
   --color-kontakt-bg: #ff7300ff;
-  --color-kontakt-h3: #000dffff;
+  --color-kontakt-h3: #0009b0ff;
   --color-kontakt-label-text: #910074ff;
   --color-kontakt-send-text: #ff58d8ff;
   --color-kontakt-form-bg: #4b4b4bff;
