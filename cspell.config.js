@@ -19,7 +19,6 @@ export default defineConfig({
     'node_modules',
     'dist',
     'dictionaries/**',
-    'AGENTS.md',
     'cspell.config.js',
     'bun.lock',
   ],
